@@ -1,6 +1,6 @@
 package sortingalgorithms;
 
-public class SelectionSort implements SortingAlgorithms{
+public class SelectionSort implements SortingAlgorithms {
 
     int[] input;
 
@@ -17,7 +17,7 @@ public class SelectionSort implements SortingAlgorithms{
             int minIndex = i;
 
             for (int j = i; j < n; j++) {
-                if(input[j] < input[minIndex]){
+                if (input[j] < input[minIndex]) {
                     minIndex = j;
                 }
             }
@@ -33,9 +33,9 @@ public class SelectionSort implements SortingAlgorithms{
     @Override
     public void printArray(String time) {
         System.out.println("");
-        System.out.print("Array "+time+" sorting :");
-        for (int ele : input){
-            System.out.print(ele+",");
+        System.out.print("Array " + time + " sorting :");
+        for (int ele : input) {
+            System.out.print(ele + ",");
         }
     }
 
@@ -47,7 +47,7 @@ public class SelectionSort implements SortingAlgorithms{
             int maxIndex = i;
 
             for (int j = i; j < n; j++) {
-                if(input[j] > input[maxIndex]){
+                if (input[j] > input[maxIndex]) {
                     maxIndex = j;
                 }
             }
