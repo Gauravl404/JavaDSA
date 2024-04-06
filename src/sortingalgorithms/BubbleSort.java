@@ -14,7 +14,7 @@ public class BubbleSort implements SortingAlgorithms{
 
         for (int i = 0; i < n-1; i++) { // first loop for i=0 to i = n-1
             for (int j = 0; j < n - 1- i; j++) { // second loop for i = 0 to i = n-1-i
-                if(input[j] > input[j+1]){ //swap if current element is greated than next element
+                if(input[j] > input[j+1]){ //swap if current element is greater than next element
                     int temp = input[j];
                     input[j] = input[j+1];
                     input[j+1] = temp;
