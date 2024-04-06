@@ -1,4 +1,5 @@
 import sortingalgorithms.BubbleSort;
+import sortingalgorithms.SelectionSort;
 import sortingalgorithms.SortingAlgorithms;
 
 public class Main {
@@ -6,11 +7,13 @@ public class Main {
 
         int[] unsortedArray = {7, 15, 23, 9, 42, 18, 31, 5, 12, 27};
 
-        SortingAlgorithms bubbleSort = new BubbleSort(unsortedArray);
-        bubbleSort.printArray("before");
-        bubbleSort.sort();
-        bubbleSort.printArray("after");
-        bubbleSort.reverseSort();
-        bubbleSort.printArray("after reverse");
+//      SortingAlgorithms sortingAlgorithms = new BubbleSort(unsortedArray);
+        SortingAlgorithms sortingAlgorithms = new SelectionSort(unsortedArray);
+
+        sortingAlgorithms.printArray("before");
+        sortingAlgorithms.sort();
+        sortingAlgorithms.printArray("after");
+        sortingAlgorithms.reverseSort();
+        sortingAlgorithms.printArray("after reverse");
     }
 }
