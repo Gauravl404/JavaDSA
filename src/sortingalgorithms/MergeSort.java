@@ -132,6 +132,6 @@ public class MergeSort implements SortingAlgorithms {
 
     @Override
     public void reverseSort() {
-        mergeSortRev(input,0,input.length-1);
+        mergeSortRev(input, 0, input.length - 1);
     }
 }
