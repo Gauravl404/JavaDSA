@@ -5,7 +5,7 @@ public class Main {
 
         int[] unsortedArray = {7, 15, 23, 9, 42, 18, 31, 5, 12, 27};
 
-        SortingAlgorithms sortingAlgorithms = new QuickSort(unsortedArray);
+        SortingAlgorithms sortingAlgorithms = new HeapSort(unsortedArray);
 
         sortingAlgorithms.printArray("before");
         sortingAlgorithms.sort();

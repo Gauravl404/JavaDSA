@@ -6,7 +6,7 @@
 - Insertion Sort ✅
 - Merge Sort ✅
 - Quick Sort ✅
-- Heap Sort
+- Heap Sort ✅
 - Radix Sort
 - Counting Sort
 # Searching Algorithms:
